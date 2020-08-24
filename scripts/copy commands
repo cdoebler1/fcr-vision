@@ -1,0 +1,12 @@
+# Type in this below, without the #, from this directory to fix the motion 
+cd /home/pi/scripts/
+./stopmotion
+cd ..
+cd motion
+ls 
+
+sudo cp -avr * /etc/motion
+
+cd /home/pi/scripts/
+./startmotion
+
